@@ -2,9 +2,10 @@
 ##### Disciplina - Programação Web III 
 Grupo X 
 - André Luiz Da Silva Santos
-- Vicenzzo toth 
-- Jose Bonifacio 
-- Isabel Cristina Leopoldina 
+- Guilherme 
+- Gustavo 
+- Pedro Pessina
+- Vicenzzo Toth
 ##### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. 
 ##### Estudo de Caso – Sistema Integrado de Gestão 
