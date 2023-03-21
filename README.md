@@ -8,22 +8,28 @@ Grupo X
 - Vicenzzo Toth
 ##### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. 
-##### Estudo de Caso – Sistema Integrado de Gestão 
->A SavPets será uma empresa/organização voluntária, na qual ajudará os animais que forem encontrados e encaminhados para ela. Com esse sistema, será capaz de gerenciar de maneira eficiente e eficaz os dados e departamentos da empresa com o objetivo de tornar o trabalho mais claro e fácil, podendo se concentrar em outros aspectos. Ao analisar os possiveis problemas do projeto, foi reconhecido a integração e responsabilidade entre as organizações sociais e do usuario, sendo assim, nosso principal objetivo é integrar de forma positiva como resolver esse obstaculo.
+##### Estudo de Caso – Sistema de Gerenciamento de Adoção. 
+>Durante a evolução de uma organização, o aumento na dificuldade de manter um bom controle das informações necessárias para o funcionamento da empresa cresce exponencialmente, levando a maiores probabilidades de erros, desorganização em diversas áreas e possíveis percas de documentos físicos importantes.
+Com o objetivo de diminuir estes problemas e obter maior eficiência energética, produtividade e diminuição de erros durante as tarefas diárias de gerenciamento e controle de dados, o projeto consiste em oferecer funcionalidades que irão permitir um fácil acesso aos dados gerais, desde questões internas - como controle de funcionários - a atividades que envolvem os clientes externos - como relatórios de adoções (já que a plataforma prestará suporte a organização de adoções e ajuda a animais).
 ##### Product Backlog 
 - RU01 - Adoção - Registra e acompanha os processos adotivos na organização, prevê a entrega programada de pedidos de adoção 
 - RU02 - Relatorio - Registra, controla e informa sobre a entrada de doações e integra as informações dos dados da nota fiscal de entrada com o estoque 
 ##### Sprint Backlog 
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software. 
 
-| Identificador | Descrição | Prioridade | 
-| ------------ | ------------------------------------------------------------------------ | ------| 
-| REQ01 – cadastrar cliente | Como – vendedor, Eu quero – cadastrar o cliente, De maneira que – seja possível identificar o cliente e o endereço de entrega para confirmar uma venda| Média | 
-| REQ02 – consultar cliente por ID| Como – vendedor, Eu quero – consultar um cliente pelo ID, De maneira que – seja possível obter informações detalhas do cliente | Alta | 
-| REQ03 – consultar cliente por CPF | Como – vendedor, Eu quero – consultar um cliente, De maneira que – seja possível obter informações detalhas do cliente | Alta | 
-| REQ04 – consultar todos os clientes | Como – vendedor, Eu quero – consultar todos os clientes cadastrado, De maneira que – seja possível obter uma lista de clientes | Baixa | 
-| REQ05 – corrigir informações de cliente | Como – vendedor, Eu quero – corrigir as informações do cliente, De maneira que – seja possível manter as informações atualizadas | Baixa | 
-| REQ06 – excluir cliente | Como – vendedor, Eu quero – excluir um cliente, De maneira que – seja possível manter informações somente de clientes ativos | Baixa | 
+| Identificador | Descrição | Prioridade |
+| ------------ | ------------------------------------------------------------------------ | ------|
+| REQ01 – Gerenciar acesso | Como – funcionário, Eu quero – controlar meu acesso ao sistema, De maneira que – seja possível cadastrar-se, alterar a senha e entrar no sistema| Alta |
+| REQ02 – Gerenciar cargos | Como – funcionário administrativo, Eu quero – controlar os dados dos cargos, De maneira que – possa atializar os cargos existentes e adiconar novos, além de atribuir uma opção a cada funcionário | Média |
+| REQ03 – Gerenciar departamentos | Como – funcionário administrativo, Eu quero – controlar os dados dos departamentos, De maneira que – possa atualizar os departamentos existentes e adicionar novos, além de atribuir uma opção a cada funcionário | Média |
+| REQ04 – Gerenciar funcionários | Como – funcionárop administrativo, Eu quero – controlar os dados dos funcionários, De maneira que – possa obter um controle atualizado de cada membro da empresa, podendo inserir novos, atualizar as informações dos existentes ou deletar| Alta |
+| REQ05 – Gerenciar clientes | Como – atendente, Eu quero –controlar os dados dos clientes, De maneira que – possa obter um controle atualizado de cada cliente que realizou alguma adoção, cadastrando, atualizando ou deletando as informações | Alta 
+| REQ06 – Gerenciar adoções | Como – atendente, Eu quero – administrar os relatórios de adoções, De maneira que – resulte na organização dos relatórios de cada animal adotado, sendo possível gerar novos registros ou editar os existentes | Alta |
+| REQ07 – Gerenciar animais | Como – funcionário da área de controle, Eu quero – administrar os dados dos animais, De maneira que – possa obter um controle atualizado de cada animal que a empresa recebeu, cadastrando, atualizando ou deletando as informações | Alta |
+| REQ08 – Gerenciar relatórios de animais | Como – veterinário, Eu quero – administrar os relatórios de animais, De maneira que – resulte na organização dos relatórios de cada animal examinado, sendo possível gerar novos registros, editar ou excluir os existentes | Média | 
+| REQ09 – Categorizar animais | Como – funcionário da área de controle, Eu quero –documentar as raças e portes de animais, De maneira que – possa ajudar a incluir detalhes nos registros dos animais que a empresa possui, cadastrando, atualizando ou deletando as diferentes categorias | Baixa 
+| REQ010 – Gerenciar medicamentos | Como – funcionário da área de recursos, Eu quero – organizar os dados dos medicamentos, De maneira que – facilite direcionar os registros e controlar o estoque, atraves da inserção, atualização e exclusão dos medicamentos no sistema | Média |
+| REQ11 – Gerenciar fornecedores | Como – funcionário administrativo, Eu quero – organizar os dados dos fornecedores, De maneira que – possa obter um controle atualizado de cada fornecedor que a empresa requisitou, cadastrando, atualizando ou deletando as informações| Média |
 ##### Definição de pronto 
 > O sprint será considerado concluido quando: 
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade 
