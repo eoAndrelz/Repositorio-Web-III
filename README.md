@@ -9,8 +9,7 @@ Grupo X
 ##### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. 
 ##### Estudo de Caso – Sistema de Gerenciamento de Adoção. 
->Durante a evolução de uma organização, o aumento na dificuldade de manter um bom controle das informações necessárias para o funcionamento da empresa cresce exponencialmente, levando a maiores probabilidades de erros, desorganização em diversas áreas e possíveis percas de documentos físicos importantes.
-Com o objetivo de diminuir estes problemas e obter maior eficiência energética, produtividade e diminuição de erros durante as tarefas diárias de gerenciamento e controle de dados, o projeto consiste em oferecer funcionalidades que irão permitir um fácil acesso aos dados gerais, desde questões internas - como controle de funcionários - a atividades que envolvem os clientes externos - como relatórios de adoções (já que a plataforma prestará suporte a organização de adoções e ajuda a animais).
+>A SavPets será uma empresa/organização voluntária, na qual ajudará os animais que forem encontrados e encaminhados para ela. Com esse sistema, será capaz de gerenciar de maneira eficiente e eficaz os dados e departamentos da empresa com o objetivo de tornar o trabalho mais claro e fácil, podendo se concentrar em outros aspectos. Ao analisar os possiveis problemas do projeto, é aconcialiar o processe entre as organizações publicas e o usuario, assim facilitando o processo para 
 ##### Product Backlog 
 - RU01 - Adoção - Registra e acompanha os processos adotivos na organização, prevê a entrega programada de pedidos de adoção 
 - RU02 - Relatorio - Registra, controla e informa sobre a entrada de doações e integra as informações dos dados da nota fiscal de entrada com o estoque 
